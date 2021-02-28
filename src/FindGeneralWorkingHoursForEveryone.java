@@ -27,11 +27,11 @@ public class FindGeneralWorkingHoursForEveryone {
     }
 
     public int roundOff(int date, boolean isStartWorkDate) {
-        if (date >= 1000 && date <= 2400) {
+        if (date >= 1 && date <= 2400) {
             int hour = date / 100;
             int min = date % 100;
             String s1, s2, s;
-            if (min > 0 && min <= 30) {
+            if (min > 0 && min <30) {
                 s1 = Integer.toString(hour);
                 if (isStartWorkDate) {
                     s2 = "30";

@@ -26,6 +26,16 @@ public class InitializeDate {
         CalendarOfDay clientSecond = new CalendarOfDay(workingHoursClientSecond,meetsFurClientSecond);
 
         allCalendar.add(clientSecond);
+
+        WorkingHours workingHoursClientThree= new WorkingHours(1000, 1830);
+        Map<Integer, Integer>meetsFurClientThree= new HashMap<>();
+        meetsFurClientThree.put(1000, 1130);
+        meetsFurClientThree.put(1230, 1430);
+        meetsFurClientThree.put(1430, 1500);
+        meetsFurClientThree.put(1500, 1530);
+        CalendarOfDay clientThree = new CalendarOfDay(workingHoursClientThree,meetsFurClientThree);
+
+        allCalendar.add(clientThree);
     }
 
     public List<CalendarOfDay> getAllCalendar() {

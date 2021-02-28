@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4f7f734-7591-4db5-a254-8b5f0b4cb695" name="Default Changelist" comment="" />
+    <list default="true" id="e4f7f734-7591-4db5-a254-8b5f0b4cb695" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotkajmy_sie/InitializeDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spotkajmy_sie/InitializeDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotkajmy_sie/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spotkajmy_sie/MainClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotkajmy_sie/Meet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InitializeDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InitializeDate.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ozd3RPVjw9gg7rYxArnzN9PRno" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -68,12 +79,26 @@
       <workItem from="1614293155326" duration="647000" />
       <workItem from="1614362941480" duration="15707000" />
       <workItem from="1614444931960" duration="14380000" />
-      <workItem from="1614502742509" duration="4749000" />
+      <workItem from="1614502742509" duration="5036000" />
+      <workItem from="1614538152189" duration="964000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -87,6 +112,31 @@
           <url>file://$PROJECT_DIR$/src/MainClass.java</url>
           <line>60</line>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
