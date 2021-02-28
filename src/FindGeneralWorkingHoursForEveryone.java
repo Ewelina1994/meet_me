@@ -40,9 +40,10 @@ public class FindGeneralWorkingHoursForEveryone {
                 }
                 s = s1 + s2;
                 return Integer.parseInt(s);
-            } else if (min > 30 && min < 59) {
-                s1 = Integer.toString(hour + 1);
+            } else if (min > 30 && min < 60) {
+                s1= String.valueOf(hour);
                 if (isStartWorkDate) {
+                    s1 = Integer.toString(hour + 1);
                     s2 = "00";
                 } else {
                     s2 = "30";
