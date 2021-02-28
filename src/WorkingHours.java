@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class WorkingHours {
     private int startDate;
     private int stopDate;
@@ -25,5 +27,19 @@ public class WorkingHours {
 
     public void setStopDate(int stopDate) {
         this.stopDate = stopDate;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        WorkingHours that = (WorkingHours) o;
+        return startDate == that.startDate &&
+                stopDate == that.stopDate;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(startDate, stopDate);
     }
 }

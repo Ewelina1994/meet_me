@@ -10,10 +10,11 @@ public class FindGeneralWorkingHoursForEveryone {
         roundDatesToHalfAnHour();
     }
 
-    private WorkingHours findStartTimeAndStopTime(List<WorkingHours> workingHoursList) {
+    public WorkingHours findStartTimeAndStopTime(List<WorkingHours> workingHoursList) {
         List<Integer> startList = workingHoursList.stream().map(h -> h.getStartDate()).collect(Collectors.toList());
         List<Integer> stopList = workingHoursList.stream().map(h -> h.getStopDate()).collect(Collectors.toList());
 
+        Collections.sort(startList);
         Collections.reverse(startList);
         Collections.sort(stopList);
 
@@ -31,7 +32,7 @@ public class FindGeneralWorkingHoursForEveryone {
             int hour = date / 100;
             int min = date % 100;
             String s1, s2, s;
-            if (min > 0 && min <30) {
+            if (min > 0 && min < 30) {
                 s1 = Integer.toString(hour);
                 if (isStartWorkDate) {
                     s2 = "30";
@@ -41,7 +42,7 @@ public class FindGeneralWorkingHoursForEveryone {
                 s = s1 + s2;
                 return Integer.parseInt(s);
             } else if (min > 30 && min < 60) {
-                s1= String.valueOf(hour);
+                s1 = String.valueOf(hour);
                 if (isStartWorkDate) {
                     s1 = Integer.toString(hour + 1);
                     s2 = "00";

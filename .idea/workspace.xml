@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f7f734-7591-4db5-a254-8b5f0b4cb695" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryoneTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotkajmy_sie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spotkajmy_sie.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotkajmy_sie/WorkingHours.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spotkajmy_sie/WorkingHours.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryoneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WorkingHours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkingHours.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FindGeneralWorkingHoursForEveryoneTest.roundOffTestMethod">
+  <component name="RunManager" selected="JUnit.FindGeneralWorkingHoursForEveryoneTest.findStartTimeAndStopTimeTestNotAssert">
     <configuration name="CalendarFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CalendarFinder" />
       <module name="spotkajmy_sie" />
@@ -69,6 +70,26 @@
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainClass" />
       <module name="spotkajmy_sie" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindGeneralWorkingHoursForEveryoneTest.findStartTimeAndStopTimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spotkajmy_sie" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FindGeneralWorkingHoursForEveryoneTest" />
+      <option name="METHOD_NAME" value="findStartTimeAndStopTimeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindGeneralWorkingHoursForEveryoneTest.findStartTimeAndStopTimeTestNotAssert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spotkajmy_sie" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FindGeneralWorkingHoursForEveryoneTest" />
+      <option name="METHOD_NAME" value="findStartTimeAndStopTimeTestNotAssert" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,6 +106,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindGeneralWorkingHoursForEveryoneTest.findStartTimeAndStopTimeTestNotAssert" />
+        <item itemvalue="JUnit.FindGeneralWorkingHoursForEveryoneTest.findStartTimeAndStopTimeTest" />
         <item itemvalue="JUnit.FindGeneralWorkingHoursForEveryoneTest.roundOffTestMethod" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.CalendarFinder" />
@@ -105,7 +128,7 @@
       <workItem from="1614362941480" duration="15707000" />
       <workItem from="1614444931960" duration="14380000" />
       <workItem from="1614502742509" duration="5036000" />
-      <workItem from="1614538152189" duration="4037000" />
+      <workItem from="1614538152189" duration="5751000" />
     </task>
     <task id="LOCAL-00001" summary="fix method rounding start-end times">
       <created>1614539379646</created>
@@ -114,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614539379646</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix method rounding and add test to this method">
+      <created>1614542403695</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614542403695</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,50 +165,69 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix method rounding start-end times" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix method rounding start-end times" />
+    <MESSAGE value="fix method rounding and add test to this method" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix method rounding and add test to this method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
-          <line>33</line>
+          <line>34</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
-          <line>41</line>
+          <line>42</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
-          <line>44</line>
+          <line>45</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
-          <line>48</line>
+          <line>49</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
-          <line>52</line>
+          <line>53</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
-          <line>57</line>
+          <line>58</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
-          <line>45</line>
+          <line>46</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
-          <line>46</line>
+          <line>47</line>
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
+          <line>13</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
