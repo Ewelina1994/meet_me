@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4f7f734-7591-4db5-a254-8b5f0b4cb695" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Interval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/main/MainClassTest.java" afterDir="false" />
+    <list default="true" id="e4f7f734-7591-4db5-a254-8b5f0b4cb695" name="Default Changelist" comment="add test to method findStartAndStopHours and fix this method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spotkajmy_sie/CalendarOfDay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spotkajmy_sie/InitializeDate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spotkajmy_sie/MainClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spotkajmy_sie/WorkingHours.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotkajmy_sie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spotkajmy_sie.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CalendarOfDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CalendarOfDay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/FindGeneralWorkingHoursForEveryone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/FindGeneralWorkingHoursForEveryoneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InitializeCalenderDayWork.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InitializeDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/InitializeDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkingHours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WorkingHours.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FindGeneralWorkingHoursForEveryoneTest.findStartTimeAndStopTimeTest">
+  <component name="RunManager" selected="Application.MainClass">
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.MainClass" />
       <module name="spotkajmy_sie" />
@@ -161,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClass" />
         <item itemvalue="JUnit.FindGeneralWorkingHoursForEveryoneTest.findStartTimeAndStopTimeTest" />
         <item itemvalue="JUnit.FindGeneralWorkingHoursForEveryoneTest.roundOffTestMethod" />
         <item itemvalue="JUnit.MainClassTest.checkTheIntervalsBetweenIntervalsTest" />
         <item itemvalue="JUnit.MainClassTest.combineOverlappingIntervalsTest" />
-        <item itemvalue="Application.MainClass" />
       </list>
     </recent_temporary>
   </component>
