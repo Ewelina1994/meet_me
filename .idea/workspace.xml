@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f7f734-7591-4db5-a254-8b5f0b4cb695" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/Interval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/main/MainClassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spotkajmy_sie/WorkingHours.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spotkajmy_sie/WorkingHours.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryoneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkingHours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkingHours.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotkajmy_sie/CalendarOfDay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotkajmy_sie/InitializeDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotkajmy_sie/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spotkajmy_sie/WorkingHours.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spotkajmy_sie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spotkajmy_sie.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalendarOfDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CalendarOfDay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/FindGeneralWorkingHoursForEveryone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/FindGeneralWorkingHoursForEveryoneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InitializeCalenderDayWork.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InitializeDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/InitializeDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WorkingHours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WorkingHours.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,12 +27,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ozd3RPVjw9gg7rYxArnzN9PRno" />
@@ -37,11 +52,18 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="main" />
       <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="main" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -59,36 +81,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FindGeneralWorkingHoursForEveryoneTest.findStartTimeAndStopTimeTestNotAssert">
-    <configuration name="CalendarFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CalendarFinder" />
-      <module name="spotkajmy_sie" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.FindGeneralWorkingHoursForEveryoneTest.findStartTimeAndStopTimeTest">
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainClass" />
+      <option name="MAIN_CLASS_NAME" value="main.MainClass" />
       <module name="spotkajmy_sie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="FindGeneralWorkingHoursForEveryoneTest.findStartTimeAndStopTimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spotkajmy_sie" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FindGeneralWorkingHoursForEveryoneTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main" />
+      <option name="MAIN_CLASS_NAME" value="main.FindGeneralWorkingHoursForEveryoneTest" />
       <option name="METHOD_NAME" value="findStartTimeAndStopTimeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindGeneralWorkingHoursForEveryoneTest.findStartTimeAndStopTimeTestNotAssert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spotkajmy_sie" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FindGeneralWorkingHoursForEveryoneTest" />
-      <option name="METHOD_NAME" value="findStartTimeAndStopTimeTestNotAssert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,9 +113,47 @@
     </configuration>
     <configuration name="FindGeneralWorkingHoursForEveryoneTest.roundOffTestMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spotkajmy_sie" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FindGeneralWorkingHoursForEveryoneTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main" />
+      <option name="MAIN_CLASS_NAME" value="main.FindGeneralWorkingHoursForEveryoneTest" />
       <option name="METHOD_NAME" value="roundOffTestMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClassTest.checkTheIntervalsBetweenIntervalsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spotkajmy_sie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main" />
+      <option name="MAIN_CLASS_NAME" value="main.MainClassTest" />
+      <option name="METHOD_NAME" value="checkTheIntervalsBetweenIntervalsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClassTest.combineOverlappingIntervalsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spotkajmy_sie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main" />
+      <option name="MAIN_CLASS_NAME" value="main.MainClassTest" />
+      <option name="METHOD_NAME" value="combineOverlappingIntervalsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FindGeneralWorkingHoursForEveryoneTest.findStartTimeAndStopTimeTestNotAssert" />
         <item itemvalue="JUnit.FindGeneralWorkingHoursForEveryoneTest.findStartTimeAndStopTimeTest" />
         <item itemvalue="JUnit.FindGeneralWorkingHoursForEveryoneTest.roundOffTestMethod" />
+        <item itemvalue="JUnit.MainClassTest.checkTheIntervalsBetweenIntervalsTest" />
+        <item itemvalue="JUnit.MainClassTest.combineOverlappingIntervalsTest" />
         <item itemvalue="Application.MainClass" />
-        <item itemvalue="Application.CalendarFinder" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +183,9 @@
       <workItem from="1614362941480" duration="15707000" />
       <workItem from="1614444931960" duration="14380000" />
       <workItem from="1614502742509" duration="5036000" />
-      <workItem from="1614538152189" duration="5751000" />
+      <workItem from="1614538152189" duration="5942000" />
+      <workItem from="1614546414037" duration="676000" />
+      <workItem from="1614547174285" duration="18901000" />
     </task>
     <task id="LOCAL-00001" summary="fix method rounding start-end times">
       <created>1614539379646</created>
@@ -144,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614542403695</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add test to method findStartAndStopHours and fix this method">
+      <created>1614544242903</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614544242903</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,68 +230,54 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix method rounding start-end times" />
     <MESSAGE value="fix method rounding and add test to this method" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix method rounding and add test to this method" />
+    <MESSAGE value="add test to method findStartAndStopHours and fix this method" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test to method findStartAndStopHours and fix this method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
+          <url>file://$PROJECT_DIR$/src/main/FindGeneralWorkingHoursForEveryone.java</url>
           <line>53</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
+          <url>file://$PROJECT_DIR$/src/main/FindGeneralWorkingHoursForEveryone.java</url>
           <line>58</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FindGeneralWorkingHoursForEveryone.java</url>
+          <url>file://$PROJECT_DIR$/src/main/FindGeneralWorkingHoursForEveryone.java</url>
           <line>13</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/MainClass.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/MainClass.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/MainClass.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/MainClass.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/MainClass.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

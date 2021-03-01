@@ -1,3 +1,5 @@
+package main;
+
 import java.util.Objects;
 
 public class WorkingHours {
@@ -7,10 +9,6 @@ public class WorkingHours {
     public WorkingHours(int startDate, int stopDate) {
         this.startDate = startDate;
         this.stopDate = stopDate;
-    }
-
-    public WorkingHours() {
-
     }
 
     public int getStartDate() {

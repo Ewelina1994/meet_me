@@ -1,13 +1,15 @@
-import java.util.Map;
+package main;
+
+import java.util.List;
 import java.util.Objects;
 
 public class CalendarOfDay {
     private WorkingHours workingHours;
-    private Map<Integer, Integer> meetsMap;
+    private List<Interval> intervalList;
 
-    public CalendarOfDay(WorkingHours workingHours, Map<Integer, Integer> meetsMap) {
+    public CalendarOfDay(WorkingHours workingHours, List<Interval> meetsMap) {
         this.workingHours = workingHours;
-        this.meetsMap = meetsMap;
+        this.intervalList = meetsMap;
     }
 
     public WorkingHours getWorkingHours() {
@@ -18,13 +20,10 @@ public class CalendarOfDay {
         this.workingHours = workingHours;
     }
 
-    public Map<Integer, Integer> getMeetsMap() {
-        return meetsMap;
+    public List<Interval> getIntervalList() {
+        return intervalList;
     }
 
-    public void setMeetsMap(Map<Integer, Integer> meetsMap) {
-        this.meetsMap = meetsMap;
-    }
 
     @Override
     public boolean equals(Object o) {
@@ -32,11 +31,11 @@ public class CalendarOfDay {
         if (o == null || getClass() != o.getClass()) return false;
         CalendarOfDay that = (CalendarOfDay) o;
         return Objects.equals(workingHours, that.workingHours) &&
-                Objects.equals(meetsMap, that.meetsMap);
+                Objects.equals(intervalList, that.intervalList);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(workingHours, meetsMap);
+        return Objects.hash(workingHours, intervalList);
     }
 }
